@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mabolla Burger</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!--header section start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/mabolla_logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Anasayfa</a>
+            <a href="menu.html">Menü</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+            <a href="blogs.html">Şubelerimiz</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box"
+             placeholder="aramak istediğiniz şeyi yazın">
+             <i class="fas fa-search"></i>
+        </div>
+
+        <div class="cart-items-container">
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/köri-burger.jpeg" alt="menu">
+                <div class="content">
+                    <h3>sepetim 1</h3>
+                    <div class="price">180 TL</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/tavuk-burger.jpeg" alt="menu">
+                <div class="content">
+                    <h3>sepetim 2</h3>
+                    <div class="price">180 TL</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/cheese-burger.jpeg" alt="menu">
+                <div class="content">  
+                    <h3>sepetim 3</h3>
+                    <div class="price">200 TL</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/mabolla-burger.jpeg" alt="menu">
+                <div class="content">
+                    <h3>sepetim 4</h3>
+                    <div class="price">225 TL</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">sepete git</a>
+        </div>
+
+
+    </header>
+    <!--header section end-->
+   
+
+    <!--home section start-->
+    <section class="home">
+       <div class="content">
+            <h3>Herkesin bir gün Mabolla zamanı gelir</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a ullam eaque, ut nulla distinctio corrupti excepturi quidem molestias?</p>
+            <a href="#" class="btn">Sipariş Ver</a> 
+       </div>
+    </section>
+    <!--home section end-->
+
+
+    <!--menu section start-->
+    <section class="menu">
+        <h1 class="heading">MENÜ <span>SEÇENEKLERİMİZ</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/tavuk-burger.jpeg" alt="menu"> 
+                    <span class="menu-category">hamburger</span>
+                    <h3>Tavuk Burger Menü</h3>
+                    <div class="price">180 TL <span>194.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/köri-burger.jpeg" alt="menu"> 
+                    <span class="menu-category">hamburger</span>
+                    <h3>Köri Soslu Burger Menü</h3>
+                    <div class="price">180 TL <span>194.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/mabolla-burger.jpeg" alt="menu"> 
+                    <span class="menu-category">hamburger</span>
+                    <h3>Mabolla Burger Menü</h3>
+                    <div class="price">225 TL <span>239.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cheese-burger.jpeg" alt="menu"> 
+                    <span class="menu-category">hamburger</span>
+                    <h3>Cheese Burger Menü</h3>
+                    <div class="price">200 TL <span>214.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--menu section end-->
+
+
+    <!--about section start-->
+    <section class="about">
+        <h1 class="heading">BİZİM <span>HAKKIMIZDA</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/hamburger.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>El Yapımı Hamburgerlerimizin Sırrı Ne?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur incidunt impedit 
+                    placeat numquam magnam quis cum tempora quisquam doloribus soluta et, voluptatum ipsam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur incidunt impedit 
+                    placeat numquam magnam quis cum tempora quisquam doloribus soluta et, voluptatum ipsam. </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur incidunt impedit 
+                    placeat numquam magnam quis cum tempora quisquam doloribus soluta et, voluptatum ipsam.</p>
+                <a href="#" class="btn">daha fazla oku</a>
+            </div>
+        </div>
+    </section>
+    <!--about section end-->
+
+
+    <!--review section start-->
+    <section class="review">
+        <h1 class="heading">MÜŞTERİ <span>YORUMLARI</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/quotes.webp" alt="quote" class="quote"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, asperiores nemo. Cumque ullam similique 
+                    nostrum  possimus ratione? Sed incidunt aliquid doloremque sint ullam in 
+                    quis dolore?
+                </p>
+                <img src="images/avatar1.jpeg" alt="avatar" class="user"/>
+                <h3>Zübeyde Akman</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quotes.webp" alt="quote" class="quote"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, asperiores nemo. Cumque ullam similique 
+                    nostrum molestiae  possimus ratione? Sed incidunt aliquid doloremque sint ullam in 
+                    quis dolore?
+                </p>
+                <img src="images/avatar2.jpeg" alt="avatar" class="user"/>
+                <h3>Elif Yıldız</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quotes.webp" alt="quote" class="quote"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, asperiores nemo. Cumque ullam similique 
+                    fugit possimus ratione? Sed incidunt aliquid doloremque sint ullam in 
+                    quis dolore?
+                </p>
+                <img src="images/avatar3.jpeg" alt="avatar" class="user"/>
+                <h3>Bahar Arışlı</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--review  section end-->
+
+
+    <!--contact section start-->
+    <section class="contact">
+        <h1 class="heading">İLETİŞİM <span>BİLGİLERİ</span></h1>
+        <div class="row">
+            <iframe  class="map"   
+            src="https://www.google.com/maps/embed?pb=
+            !1m14!1m8!1m3!1d6008.450944126599!2d28.362365146994904
+            !3d37.21553889236504!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s
+            0x14bf73338f0a82ed%3A0x984bcf0a45492db!2sMabolla%20Junior!
+            5e0!3m2!1str!2sus!4v1715607368313!5m2!1str!2sus" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>BİZE ULAŞIN</h3>
+
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="isim">
+                </div>
+
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="telefon numarası">
+                </div>
+                <input  type="submit" class="btn" value="gönder">
+            </form>
+        </div>
+    </section>
+    <!--contact section end-->
+
+
+    <!--blog section start-->
+    <section class="blogs">
+        <h1 class="heading">MABOLLA <span>ŞUBELERİMİZ</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/bookstore-cafe.jpeg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Bookstore & Cafe</a>
+                    <span>Camikebir,Pabuçcular Sk. Menteşe/Muğla</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">devamını oku</a>
+                </div> 
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/coffee-study.jpeg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Coffee & Study</a>
+                    <span>Emirbeyazıt,Turgutreis Cd. Menteşe/Muğla</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">devamını oku</a>
+                </div> 
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/mabolla-more.jpeg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Mabolla More</a>
+                    <span>Muslihittin,10. Cd. B blok, Menteşe/Muğla</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">devamını oku</a>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!--blog section end-->
+    
+
+    <!--footer section start-->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="ara">
+            <button class="btn btn-primary">ara</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">Anasayfa</a>
+            <a href="#">Menü</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Yorumlar</a>
+            <a href="#">İletişim</a>
+            <a href="#">Şubelerimiz</a> 
+        </div>
+        
+        <div class="credit">
+            <span>İlayda Günay </span>tarafından yapıldı
+        </div>
+    </section>
+    <!--footer section end-->
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>  
